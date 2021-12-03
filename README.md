@@ -1,2 +1,2 @@
 # Registration-Form
-A Registration Form made using HTML, CSS and JavaScript
+A Course Registration Form made using HTML, CSS and JavaScript
