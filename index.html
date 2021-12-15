@@ -7,56 +7,95 @@
     <title>Form</title>
 </head>
 <body>
-    <p align="center"><b>Course Registration Form</b></p>
-    <div>
-        Full Name: 
-        <input type="text" placeholder="Full Name" name="fullname" id="fullname"/>
-    </div>
-    <div>
-        Email Id:
-        <input type="email" placeholder="Someone@email.com"vid="email" name="email"/>
-    </div>
-    <div>
-        Mobile No:
-        <input type="number" placeholder="Mobile No" name="mobileno" id="mobileno"/>
-    </div>
-    <div>
-        Gender: 
-        <input type="radio" name="gender" id="male"/>Male 
-        <input type="radio" name="gender" id="female"/>Female
-    </div>
-    <div>
-        Date of Birth: 
-        <input type="date" name="date" id="name"/>
-    </div>
-    <div>
-        Course:
-        <select placeholder="Select Course">
-            <option value="HTML">HTML</option>
-            <option value="CSS">CSS</option>
-            <option value="JavaScript">JavaScript</option>
-            <option value="React">React</option>
-            <option value="MongoDB">MongoDB</option>
-            <option value="Node">Node</option>
-            <option value="MySQL">MySQL</option>
-        </select>
-    </div>
-    <div>
-        Days Available: 
-        <input type="checkbox" name="mon"/>Monday
-        <br>
-        <input type="checkbox" name="mon"/>Tuesday
-        <br>
-        <input type="checkbox" name="mon"/>Wednesday
-        <br>
-        <input type="checkbox" name="mon"/>Thursday
-        <br>
-        <input type="checkbox" name="mon"/>Friday
-    </div>
-    <div>
-        <input type="submit"/>
-        <input type="reset"/>
-    </div>
+    <div align="center"><b>Course Registration Form</b></div>
+    <form action="">
+        <fieldset>
+            <div align="center">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="name" name="name" placeholder="Enter Your Name" required/>
+                <br>
+                <label for="email">Email ID</label>
+                <input type="email" id="email" class="email" name="email" placeholder="Someone@email.com" required/>
+                <br>
+                <label for="mobile">Mobile No</label>
+                <input type="number" id="mobile" class="mobile" name="mobile" placeholder="Enter Your Mobile No"/>
+                <br>
+                <span>Gender</span>
+                <input type="radio" id="male" class="gender" name="gender" value="male"/>
+                <label for="male">Male</label> 
+                <br>
+                <input type="radio" id="female" class="gender" name="gender" value="female"/> 
+                <label for="female">Female</label> 
+                <br>
+                <input type="radio" id="other" class="gender" name="gender" value="other"/>
+                <label for="other">Other</label> 
+                <br>
+                <label for="dob">Date of Birth: </label>
+                <input type="date" id="dob" class="dob" name="dob"/>
+                <br>
+                <label for="username">username</label>
+                <input type="text" id="username" class="username" name="username" placeholder="Enter the Username" required/>
+                <br>
+                <!-- Should add password specification -->
+                <label for="password">Password</label>
+                <input type= "password" id="password" class="password" name="password" placeholder="Enter Password here" required/>
+                <br>
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" class="confirm_password" name="confirm_password" placeholder="Same as Password" required/>        
+                <br>
+                <label>Areas of Interest</label>
+                <input type="checkbox" id="option1" class="interests" name="option1">
+                <label for="option1">Option1</label>
+                <br>
+                <input type="checkbox" id="option2" class="interests" name="option2">
+                <label for="option2">Option2</label>
+                <br>
+                <input type="checkbox" id="option3" class="interests" name="option3">
+                <label for="option3">Option3</label>
+                <br>
+                <input type="checkbox" id="other" class="interests" name="other">
+                <label for="other">Other</label>
+                <br>
+                <label for="">Course</label>
+                <input type="radio" id="course1" class="course" name="course" value="HTML5 & CSS3"/>
+                <label for="course">HTML5 & CSS3</label>
+                <br>
+                <input type="radio" id="course2" class="course" name="course" value="JavaScript"/>
+                <label for="course">JavaScript</label>
+                <br>
+                <input type="radio" id="course3" class="course" name="course" value="ReactJS"/>
+                <label for="course">ReactJS</label>
+                <br>
+                <input type="radio" id="course4" class="course" name="course" value="Node"/>
+                <label for="course">Node</label>
+                <br>
+                <input type="radio" id="course5" class="course" name="course" value="mongoDB"/>
+                <label for="course">mongoDB</label>
+                <br>
+                <input type="radio" id="course6" class="course" name="course" value="MySQL"/>
+                <label for="course">MySQL</label>
+                <br>
+                <label for="why_do_join">Why do you want to take up this Course?</label> 
+                <br>
+                <textarea rows="5" cols="30" id="why_do_join" class="why_do_join" name="why_do_join" placeholder="Write your purpose of taking up this course"></textarea>
+                <br>
+                <!-- Should add Why Security Question as tooltip -->
+                <label for="securityquestion">Security Question</label>
+                <select id="securityquestion" id="securityquestion" class="securityquestion" name="securityquestion" placeholder="Select the Security Question">
+                    <option value="question1">Question1</option>
+                    <option value="question2">Question2</option>
+                    <option value="question3">Question3</option>
+                    <option value="question4">Question4</option>
+                </select>
+                <br>
+                <input type="text" id="security_answer" class="security_answer" name="security_answer"/>
+                <br>
+                <p>By clicking the register you are accepting <a href="">Privacy and Policies</a></p>
+                <input type="reset" value="Cancel"/>
+                <input type="submit" value="Register"/>
+            </div>
+        </fieldset>
+    </form>
 
 </body>
 </html>
