@@ -1,6 +1,6 @@
 # Registration-Form
 A Course Registration Form made utilizing HTML, CSS and JavaScript with a beautiful User Interface and which can be customized based on user requirement.
-<div><a href="https://rampentapati1111.github.io/Registration-Form/">Live Demo</a></div>
+<div><a href="https://rampentapati1111.github.io/Registration-Form/" target="_blank">Live Demo</a></div>
 
 ## To run on your PC:
 Download the code file.
