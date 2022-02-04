@@ -13,6 +13,6 @@ JavaScript Validation.
 <br>
 Customized Background based on user requirement.
 <br>
-Social Media Authentication.
+User Authentication.
 <br>
 Adding Animations using CSS.
