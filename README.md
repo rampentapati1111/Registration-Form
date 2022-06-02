@@ -1,5 +1,5 @@
 # Registration-Form
-A Course Registration Form made utilizing HTML, CSS with a beautiful User Interface and background can be customized based on user requirement added responsiveness using media queries.
+A Course Registration Form made utilizing HTML, CSS with a beautiful User Interface and background colour can be customized based on user requirement added responsiveness using media queries.
 <div>For live demo: <a href="https://rampentapati1111.github.io/Registration-Form/" target="_blank">click here</a></div>
 
 ## To run on your PC:
