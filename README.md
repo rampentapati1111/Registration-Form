@@ -17,4 +17,4 @@ User Authentication.
 <br>
 Adding Animations using CSS.
 <br>
-Adding Respomsiveness.
+Adding Responsiveness.
